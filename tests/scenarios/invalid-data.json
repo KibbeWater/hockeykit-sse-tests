@@ -1,7 +1,7 @@
 {
-	"id": "delayed-buffer",
-	"name": "Delayed Buffer",
-	"description": "Write incomplete events with a delay to test for correct data buffering behavior.",
+	"id": "invalid-data",
+	"name": "Invalid Data",
+	"description": "Write improperly formatted data to test for correct error handling.",
 	"packages": [
 		{
 			"data": "data: {\"gameOverview\":{\"homeTeam\":{\"gameSourceIdS-BIK\",\"gameId\":20710,\"place\":\"home\",\"score\":0,\"teamId\":\"AIS\",\"teamName\":\"Almtuna IS\",\"teamCode\":\"AIS\",\"gameUuid\":\"qeb-9v0pcYwwc\"},\"awayTeam\":{\"gameSourceId\":\"20241208-AIS-BIK\",\"gameId\":20710,\"place\":\"away\",\"score\":0,\"teamId\":\"BIK\",\"teamName\":\"BIK",
