@@ -1,0 +1,27 @@
+{
+	"id": "invalid-format",
+	"name": "Invalid Format",
+	"description": "Writes non-hockey events to the stream to test for correct error handling.",
+	"packages": [
+		{
+			"data": "id: 3820\n",
+			"delay": 500,
+			"isFinal": false
+		},
+		{
+			"data": "data: {\"gameOverview\":{\"gameId\":2516751,\"homeTeam\":{\"gameSourceId\":2516751,\"gameId\":2516751,\"teamId\":\"1236905\",\"teamName\":\"Aros Basket\",\"teamCode\":\"\",\"teamNumber\":1,\"place\":\"home\",\"source\":\"genius-basketball-stream-reader\",\"gameUuid\":\"ra8vvycane\",\"score\":2},\"awayTeam\":{\"gameSourceId\":2516751,\"gameId\":2516751,\"teamId\":\"1237107\",\"teamName\":\"IK Eos\",\"teamCode\":\"\",\"teamNumber\":2,\"place\":\"away\",\"source\":\"genius-basketball-stream-reader\",\"gameUuid\":\"ra8vvycane\",\"score\":7},\"homeGoals\":2,\"awayGoals\":7,\"state\":\"Ongoing\",\"time\":{\"gameId\":2516751,\"period\":1,\"periodTime\":\"07:40:21\",\"source\":\"genius-basketball-stream-reader\"},\"gameUuid\":\"ra8vvycane\"}}",
+			"delay": 0,
+			"isFinal": true
+		},
+		{
+			"data": "id: 3821\n",
+			"delay": 500,
+			"isFinal": false
+		},
+		{
+			"data": "data: {\"gameOverview\":{\"gameId\":2516751,\"homeTeam\":{\"gameSourceId\":2516751,\"gameId\":2516751,\"teamId\":\"1236905\",\"teamName\":\"Aros Basket\",\"teamCode\":\"\",\"teamNumber\":1,\"place\":\"home\",\"source\":\"genius-basketball-stream-reader\",\"gameUuid\":\"ra8vvycane\",\"score\":2},\"awayTeam\":{\"gameSourceId\":2516751,\"gameId\":2516751,\"teamId\":\"1237107\",\"teamName\":\"IK Eos\",\"teamCode\":\"\",\"teamNumber\":2,\"place\":\"away\",\"source\":\"genius-basketball-stream-reader\",\"gameUuid\":\"ra8vvycane\",\"score\":7},\"homeGoals\":2,\"awayGoals\":7,\"state\":\"Ongoing\",\"time\":{\"gameId\":2516751,\"period\":1,\"periodTime\":\"07:40:21\",\"source\":\"genius-basketball-stream-reader\"},\"gameUuid\":\"ra8vvycane\"}}",
+			"delay": 0,
+			"isFinal": true
+		}
+	]
+}
