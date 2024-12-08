@@ -1,0 +1,42 @@
+{
+	"id": "delayed-buffer",
+	"name": "Delayed Buffer",
+	"description": "Write incomplete events with a delay to test for correct data buffering behavior.",
+	"packages": [
+		{
+			"data": "data: {\"gameOverview\":{\"homeTeam\":{\"gameSourceIdS-BIK\",\"gameId\":20710,\"place\":\"home\",\"score\":0,\"teamId\":\"AIS\",\"teamName\":\"Almtuna IS\",\"teamCode\":\"AIS\",\"gameUuid\":\"qeb-9v0pcYwwc\"},\"awayTeam\":{\"gameSourceId\":\"20241208-AIS-BIK\",\"gameId\":20710,\"place\":\"away\",\"score\":0,\"teamId\":\"BIK\",\"teamName\":\"BIK",
+			"delay": 0,
+			"isFinal": false
+		},
+		{
+			"data": " Karlskoga\",\"teamCode\":\"BIK\",\"gameUuid\":\"qeb-9v0pcYwwc\"},\"homeGoals\",0,\"state\":\"Ongoing\",\"time\":{\"periodTime\":\"12:35\",\"period\":1},\"gameUuid\":\"qeb-9v0pcYwwc\"}}",
+			"delay": 500,
+			"isFinal": true
+		},
+		{
+			"data": "id: 1276\n",
+			"delay": 500,
+			"isFinal": true
+		},
+		{
+			"data": "id: 13",
+			"delay": 0,
+			"isFinal": false
+		},
+		{
+			"data": "2",
+			"delay": 500,
+			"isFinal": true
+		},
+		{
+			"data": "id: 1276\n",
+			"delay": 500,
+			"isFinal": false
+		},
+		{
+			"data": "id: 1236\n",
+			"delay": 0,
+			"isFinal": false
+		}
+	]
+}

@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  hockeykit-tester:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./tests/scenarios:/app/tests/scenarios
